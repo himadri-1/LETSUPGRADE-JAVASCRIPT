@@ -1,0 +1,105 @@
+Q1. Program to find particular character in a string //
+
+
+<html> 
+<head> 
+<title>JavaScript String indexOf() Method</title> 
+</head>
+ <body> 
+<script type = "text/javascript"> 
+var str1 = new String( "Ajay,himadri,Rohon,joy" ); var index = str1.indexOf( "Rohon" ); document.write("indexOf found String in Rohon :" + index ); 
+</script> 
+</body>
+ </html>
+
+
+
+
+//Q2. Program to convert minutes to seconds
+
+<html>
+
+<head>
+
+<title>convert minutes to seconds in javascript</title>
+
+</head>
+
+<body>
+
+  <script type = "text/javascript">
+
+    function convertMinutestoSeconds(minutes) 
+
+    {
+
+      return Math.floor(minutes * 60);
+
+    }
+
+    var minutesToSeconds = convertMinutestoSeconds(2); // convert minutes to second javascript 
+
+    document.write( "Result of converting minutes to seconds :- " + minutesToSeconds ); 
+
+
+
+  </script>  
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+//Q3. Program to search element in a array of strings
+
+<html>
+
+<body>
+
+<p>Click the button to return the value of the first element in the array that has a value above a specific number.</p>
+
+<p>Minimum age: <input type="number" id="number range" value="00"></p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p>Value: <span id="demo"></span></p>
+
+<p><strong>Note:</strong> The find() method is not supported in IE 11 (and earlier versions).</p>
+
+<script>
+
+var number = [4, 12, 16, 20];
+
+function number range(number) {
+
+  return age >= document.getElementById("number range").value;
+
+}
+
+
+
+
+
+
+
+
+
+//Q4. Program to display only elements containing 'a' in the term of array
+
+array =["Ajay","Amit","Anita","Akash","Banana","Cat","Dog"];
+
+//Q5. Print an array in reverse order
+
+Array = ["Animal","Fruits","Vegetables"];
+
+console.log(Array);
+
+Array = ["Animal","Fruits","Vegetables"].reverse();
+
+console.log(Array);
